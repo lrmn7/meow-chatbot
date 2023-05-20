@@ -1,0 +1,22 @@
+{
+    "bot_token": "<MTA5MTI1NzIwOTQ2OTU0NjU2Ng.GLZ0Gw.KDi2t4UEV6liOvix25DW1UeKWUpvJYYtnq1nEs>",
+    "activity": {
+      "activities": [
+        {
+          "name": "Chatting Simulator",
+          "type": 0
+        }
+      ],
+      "status": "online"
+    },
+    "chat": {
+      "url": "http://api.brainshop.ai/get",
+      "brainID": "<175436>",
+      "key": "<41dZyr57H6waxBjH>"
+    },
+    "misc": {
+      "channels": [],
+      "noMention": false,
+      "directMessage": true
+    }
+  }

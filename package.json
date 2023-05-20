@@ -1,0 +1,33 @@
+{
+  "name": "meow",
+  "version": "2.0.0",
+  "description": "Open sourced Discord chat bot powered by brainshop.ai",
+  "main": "src/index.js",
+  "author": "L RMN",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrmn7/meow-chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lrmn7/meow-chatbot/issues"
+  },
+  "scripts": {
+    "start": "cd src && node index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "discord-chat",
+    "discord-chatbot",
+    "chat",
+    "chatbot",
+    "tutorial",
+    "javascript"
+  ],
+  "dependencies": {
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3"
+  }
+}
