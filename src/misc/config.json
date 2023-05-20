@@ -1,5 +1,5 @@
 {
-    "bot_token": "<MTA5MTI1NzIwOTQ2OTU0NjU2Ng.GLZ0Gw.KDi2t4UEV6liOvix25DW1UeKWUpvJYYtnq1nEs>",
+    "bot_token": "<ISI DENGAN BOT TOKEN>",
     "activity": {
       "activities": [
         {
@@ -11,8 +11,8 @@
     },
     "chat": {
       "url": "http://api.brainshop.ai/get",
-      "brainID": "<175436>",
-      "key": "<41dZyr57H6waxBjH>"
+      "brainID": "<ISI ID DISINI>",
+      "key": "<ISI APIKEY DISINI>"
     },
     "misc": {
       "channels": [],
