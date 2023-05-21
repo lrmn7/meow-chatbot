@@ -1,5 +1,5 @@
 <h1 align="center">
-   Cleve
+   meow
 </h1>
 <h3 align="center">A basic discord chatbot created with Discord.js v14 & powered by Brainshop.ai</h3>
 <p align="center">
@@ -25,7 +25,7 @@
 
 ## Installation & Setup
 - [Node.js v16.9+](https://nodejs.org/en/download) is required to download.
-- Download & extract the files either by `git clone https://github.com/Carbowix/Cleve.git` or by simply [downloading](https://github.com/Carbowix/Cleve/archive/refs/heads/master.zip)
+- Download & extract the files either by `git clone https://github.com/lrmn7/meow-chatbot.git` or by simply [downloading](https://github.com/lrmn7/meow-chatbot/archive/refs/heads/master.zip)
 - Open your command prompt and be sure you are on the right root directory by using [cd](https://www.lifewire.com/change-directories-in-command-prompt-5185508) command.
 - Once you are sure, proceed with `npm install` or `yarn install` command to install latest packages.
 
@@ -53,30 +53,26 @@ Once you are done, run `npm run start` or `yarn run start` on the command prompt
 
 - Mention it, and start talking!
 
-
-<img src="https://i.ibb.co/M5tjLTh/cleve-Talk.png">
-
 ## Available Features
 - Slash commands that helps you ease your bot management
 - Set/Remove default chat text channels for the bot. (Supports multiple channels)
-<img src="./src/misc/images/feature.png" />
 
 - Ping command to ensure bot is ready to knock on your door.
 - No mention feature so that bot can talk without being mentioned. (**Check** [here](#how-to-enable-no-mention-feature) for more details)
 - Direct messages chatting is now available through configuration. (**Check** [here](#how-to-enable-direct-messages-feature) for more details)
 
 ## Issues
-If you have any issues feel free to create one in the issues [section](https://github.com/Carbowix/Cleve/issues). Make sure that your issue wasn't listed in the [closed](https://github.com/Carbowix/Cleve/issues?q=is%3Aissue+is%3Aclosed) issues before creating an issue.
+If you have any issues feel free to create one in the issues [section](https://github.com/lrmn7/meow-chatbot/issues). Make sure that your issue wasn't listed in the [closed](https://github.com/lrmn7/meow-chatbot/issues?q=is%3Aissue+is%3Aclosed) issues before creating an issue.
 
 ## Frequently Asked Questions (FAQ)
 ### How to enable No mention feature
-Head to [src/misc/config.json](https://github.com/Carbowix/Cleve/blob/master/src/misc/config.json#L19) and edit **"noMention"** value to `true`
+Head to [src/misc/config.json](https://github.com/lrmn7/meow-chatbot/blob/master/src/misc/config.json#L19) and edit **"noMention"** value to `true`
 
 - **IMPORANT**: In-order for this feature to work, you will have to enable [MessageContent Privileged Intent](https://autocode.com/discord/threads/what-are-discord-privileged-intents-and-how-do-i-enable-them-tutorial-0c3f9977/) in your discord bot application. Otherwise it will produce and error like the following:
 <img src="./src/misc/images/error.png">
 
 ### How to enable Direct Messages feature
-Head to [src/misc/config.json](https://github.com/Carbowix/Cleve/blob/master/src/misc/config.json#L20) and edit **"directMessage"** value to `true`
+Head to [src/misc/config.json](https://github.com/lrmn7/meow-chatbot/blob/master/src/misc/config.json#L20) and edit **"directMessage"** value to `true`
 
 ### Bot not replying / API error
 It most likely either you failed to to follow the [installation](#installation--setup) instructions correctly or Brainshop.ai API is [down](https://rapidapi.com/Acobot/api/brainshop-ai/discussions)
